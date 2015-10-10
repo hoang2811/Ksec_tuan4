@@ -4,7 +4,7 @@
 
 * Bước 1 : Chuyển sang quyền **root**  ( nếu bỏ qua bước này thì trước các câu lệnh dưới thêm **sudo** vào đầu dòng lệnh)
 
-`sudo su`
+    * `sudo su`
 
 ![](http://imgur.com/JjuOoxD.png)
 
@@ -12,13 +12,13 @@ Nhập mật khẩu -> Enter
 
 * Bước 2 : Cập nhật các **Repository**:
 
-`apt-get update`
+    * `apt-get update`
 
 ![](http://imgur.com/VhczcFe.png)
 
-Bước 3 : Cài đặt apache2 bằng lệnh
+* Bước 3 : Cài đặt apache2 bằng lệnh
 
-`apt-get install apache2`
+    * `apt-get install apache2`
 
 ![](http://imgur.com/RBfukAC.png)
 
@@ -30,13 +30,13 @@ Quá trình cài đặt sẽ diễn ra trong ít phút
 
 Sau đó start dịch vụ apache2:
 
-`service  apache2  restart`
+    * `service  apache2  restart`
 
 ![](http://imgur.com/iKWMRjQ.png)
 
 Sau khi mọi thứ hoàn thành, bạn đã có một web server sẵn sàng. Để kiểm tra nó, trước tiên phải dò địa chỉ IP của server, gõ lệnh:
 
-`ifconfig | grep inet`
+    * `ifconfig | grep inet`
 
 ![](http://imgur.com/TCk9B3D.png)
 
